@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shift Insight</title>
+  <link rel="stylesheet" href="shift.css">
+  <script src="shift.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="header">Olorunsogo power plant</h1>
+    <h2>SHIFT ROASTER</h2>
+
+    <label for="shift">Select Shift:</label>
+    <select id="shift">
+      <option value="A">Shift A (Mr Shola)</option>
+      <option value="B">Shift B (Mr Seyi)</option>
+      <option value="C">Shift C (Mr Godwin)</option>
+      <option value="D">Shift D (Mr Joshua)</option>
+    </select>
+
+    <label for="date">Enter Date:</label>
+    <input type="date" id="date" required>
+
+    <button class="btn" onclick="determineShift()">CHECK</button>
+
+    <div id="result"></div>
+  </div>
+
+  
+</body>
+</html>
